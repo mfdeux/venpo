@@ -78,6 +78,6 @@ def save_data(data: typing.List[typing.Dict], filename: str):
     Returns:
 
     """
-    now = datetime.datetime.now().replace(microsecond=0).isoformat()
-    with open(f"{filename}-{now}", "w") as f:
+    now = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    with open(f"{filename}-{now}.json", "w") as f:
         f.write(json.dumps(data))
