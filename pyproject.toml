@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/mfdeux/venpo"
 packages = [{ include = "venpo" }]
-include = ["data/*"]
+include = ["data/*", "venpo_demo.gif"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

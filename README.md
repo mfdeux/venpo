@@ -4,7 +4,7 @@ Extract Venmo transactions from a profile with one command
 
 ## Demo
 
-Make demo here
+![](venpo_demo.gif)
 
 ## About
 
